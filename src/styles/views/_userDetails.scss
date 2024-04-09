@@ -1,0 +1,41 @@
+.user-info {
+  padding: 20px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .back-link {
+      text-decoration: none;
+      color: #7fad39;
+    }
+  }
+
+  .user-details {
+    text-align: center;
+
+    img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #4caf50;
+    }
+
+    p {
+      margin-bottom: 5px;
+      color: #555;
+    }
+
+    .location-details {
+      color: #333;
+    }
+  }
+}

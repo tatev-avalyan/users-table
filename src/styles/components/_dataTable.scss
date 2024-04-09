@@ -1,0 +1,46 @@
+.data-table {
+  margin-bottom: 20px;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 128, 0, 0.1);
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+      font-size: 14px;
+      img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 8px;
+      }
+    }
+
+    th {
+      background-color: #d9f0d9;
+      font-weight: bold;
+    }
+
+    tbody {
+      tr {
+        cursor: pointer;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          background-color: #f0f9f0;
+          box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+        }
+
+        &.highlight {
+          background-color: #f0f9f0;
+        }
+      }
+    }
+  }
+}
