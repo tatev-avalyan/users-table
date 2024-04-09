@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### env file
+Create .env file out of src folder and add content: VUE_APP_API_URL=https://randomuser.me/
