@@ -91,6 +91,7 @@ export default {
     ...mapActions(["getData"]),
     async handlePaginationChange(initialPagination) {
       this.initialPagination = initialPagination;
+      this.loading = true;
       await this.getUsersData();
     },
     async getUsersData() {
